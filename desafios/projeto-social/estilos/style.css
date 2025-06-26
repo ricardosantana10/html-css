@@ -32,3 +32,32 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+iframe#screen {
+    position: relative;
+    top: 80px;
+    left: 23px;
+    width: 265px;
+    height: 471px;
+
+}
+
+section#social-media {
+    text-align: right;
+}
+
+section#social-media img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.474);
+    box-sizing: border-box;
+}
+
+section#social-media img:hover {
+    transform: translate(-3px, -3px);
+    border: 2px solid rgba(255, 255, 255, 0.353);
+    box-shadow: 5px 5px 10px black;
+    transition: transform 0.3s;
+
+}
