@@ -87,3 +87,13 @@ body {
 .back-page a:hover {
     text-decoration: underline;
 }
+
+.new-pswd a {
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.new-pswd a:hover{
+    text-decoration: underline;
+}
