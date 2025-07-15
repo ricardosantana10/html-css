@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+body {
+    background-color: silver;
+}
+
+header {
+    background-color: rgb(126, 120, 120);
+    height: 110px;
+}
+
+h1 {
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+li {
+    color: white;
+    background-color: rgb(69, 68, 68);
+    margin: 2px;
+    padding: 10px;
+}
+
+li:hover {
+    background-color: rgb(112, 110, 110);
+    cursor: pointer;
+}
+
+main {
+    background-color: white;
+    align-items: center;
+    margin: 10px 50px 0 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main > p {
+    margin: 10px;
+}
