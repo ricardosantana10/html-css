@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+section {
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+section a {
+    color: white;
+}
+
