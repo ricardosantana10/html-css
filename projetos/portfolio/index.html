@@ -1,40 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Ricardo - Portfólio</title>
 </head>
+
 <body>
-    <section>
-        <header>
-            <nav>
-                <a href="#home">Início</a>
-                <a href="#about">Sobre</a>
-                <a href="#projects">Projetos</a>
-                <a href="#curriculum">Currículo</a>
-                <a href="#contact">Contato</a>
-            </nav>
-            <div>
-                <img width="50" height="50" src="https://img.icons8.com/ios/50/do-not-disturb-2.png" alt="do-not-disturb-2"/>
+    <header>
+        <nav class="navbar">
+            <div class="logo">&lt;RS Dev/&gt;</div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#project">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <main class="hero">
+            <h1>Ricardo Santana</h1>
+            <h2> Téc. Redes de Computadores | Desenvolvedor Front - End</h2>
+            <p>
+                Crio interfaces modernas, responsivas e otimizadas. Meu foco é transformar design em experiências digitais fluidas e de alta performance.
+            </p>
+            <div class="buttons">
+                <a href="#" class="btn primary">Ver Meus Projetos</a>
+                <a href="#" class="btn secondary">Vamos Conversar</a>
             </div>
-        </header>
+            <div class="socials">
+                <a href="https://ricardosantanasfc@gmail.com?subject=Contato%20Portfólio&body=Olá%20Ricardo,%20gostaria%20de%20falar%20sobre..."><img width="35" height="35" src="https://img.icons8.com/parakeet-line/48/ffffff/new-post.png" alt="new-post"/></a>
+                <a href="https://www.linkedin.com/in/ricardo-santana10"><img width="35" height="35" src="https://img.icons8.com/ios/50/ffffff/linkedin-2--v1.png" alt="linkedin-2--v1"/></a>
+                <a href="https://github.com/ricardosantana10"><img width="35" height="35" src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="github"/></a>
+            </div>
+        </main>
     </section>
-    <section>
-        <h1>Ricardo Santana</h1>
-        <h4>Técnico Redes de Compuatadores</h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe aperiam est maiores a iusto incidunt, quasi aut, illum iure nam ratione? Esse necessitatibus unde harum sit doloremque consequuntur itaque iste.</p>
-        <div>
-            <button>Ver Meus Projetos</button>
-            <button>Vamos Conversar</button>
-        </div>
-        <div>
-            <button></button>
-            <button></button>
-            <button></button>
-        </div>
-    </section>
+
+    <section id="about" class="sobre">
+  <h2>Sobre Mim</h2>
+  
+  <div class="sobre-container">
+    <div class="perfil">
+        <img src="imagens/img-ricardo.jpeg" alt="Foto Ricardo Santana">
+    </div>
+        <p>
+            Formado em Redes de Computadores pelo SENAI, sou um profissional em início de carreira na área de Tecnologia da Informação, com foco em Desenvolvimento Front-end.
+
+            Durante minha formação, participei do programa AWS Academy, que me proporcionou uma base sólida em computação em nuvem. Tenho conhecimentos em HTML5, CSS3 e noções de JavaScript, e estou em constante evolução técnica por meio de estudos e projetos práticos.
+
+            Destaco minha participação no Desafio de Ideias SENAI, onde desenvolvi uma solução voltada para a empresa Adonai, unindo criatividade e aplicação prática do conhecimento técnico.
+
+            Busco minha primeira oportunidade profissional na área de TI, com especial interesse em desenvolvimento Front-end, onde possa crescer, contribuir com soluções e aprender continuamente em um ambiente de equipe e inovação
+      </p>
+
+    <div class="info">
+      <div class="card">
+        <h3>🎯 Especialização</h3>
+        <p>Desenvolvimento de interfaces com foco em performance, UX e acessibilidade.</p>
+      </div>
+      <div class="card">
+        <h3>💡 Paixão</h3>
+        <p>Transformar ideias em soluções digitais criativas e funcionais.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
 
 </body>
+
 </html>
