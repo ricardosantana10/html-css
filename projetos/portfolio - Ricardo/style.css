@@ -96,6 +96,11 @@ section {
   box-shadow: 0 6px 20px rgba(0,0,0,0.4);
 }
 
+.btn button a {
+  text-decoration: none;
+  color: white;
+}
+
 #my-projects {
   background: linear-gradient(180deg, #19b3ff, rgb(8, 130, 206));
   color: #fff;
@@ -158,6 +163,7 @@ section {
   color: #19b3ff;
   margin-bottom: 30px;
   font-weight: 600;
+  border-bottom: 3px solid #00c6ff;
 }
 
 #about img {
@@ -182,9 +188,13 @@ section {
   text-align: left;
 }
 
+#about .card:hover {
+  background: rgba(255, 255, 255, 0.151);
+  transition: 0.2s;
+}
+
 /* PROJETOS */
 .tittle {
-  background-color: #0b0f17;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -222,7 +232,6 @@ section {
   width: 100%; 
   text-align: left;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
-  transition: none; 
 }
 
 #projects > div:hover {
@@ -236,6 +245,11 @@ section {
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 20px;
+  transition: 0.2s; 
+}
+
+#projects img:hover {
+  transform: scale(1.02);
 }
 
 #projects h2 {
@@ -307,6 +321,10 @@ section {
   border: 1px solid #2b3751;
 }
 
+#github a button {
+  text-decoration: none;
+}
+
 #github:hover {
   background: rgba(255, 255, 255, 0.05);
   transform: scale(1.08);
@@ -375,6 +393,11 @@ section {
   transition: 0.2s;
   box-shadow: 0 6px 20px rgba(0,0,0,0.4);
   background-color: #068db3;
+  color: white;
+}
+
+.download-review button a {
+  text-decoration: none;
   color: white;
 }
 
