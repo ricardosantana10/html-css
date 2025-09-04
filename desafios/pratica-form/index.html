@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Pratica de Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <div>
+            <label for="iname">Nome de Usuário:</label>
+            <input type="text" name="name" id="iname" required>
+        </div>
+        <div>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required>
+        </div>
+        <div>
+            <label for="itel">Telefone:</label>
+            <input type="tel" name="tel" id="itel" placeholder="(xx)xxxx-xxxx" required >
+        </div>
+        <div>
+            <label for="istate">Selecione seu estado:</label>
+            <select name="state" id="istate">
+                <optgroup>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="idate">Data:</label>
+            <input type="date" name="date" id="idate">
+        </div>
+        <div>
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="sexo" id="sexo">Masculino
+
+            <label for="sexo"></label>
+            <input type="radio" name="sexo" id="sexo">Feminino
+        </div>
+        <div>
+            <label for="imnsg">Digite sua mensagem</label> <br>
+            <textarea name="msng" id="imsng"></textarea>
+        </div>
+        <div>
+            <label for="icolor">Cor:</label>
+            <input type="color" name="color" id="icolor">
+        </div>
+        <div>
+            <fieldset>
+                <legend>Esportes Favoritos:</legend>
+                <label for="iesp">Futebol</label>
+                <input type="checkbox" name="fut" id="ifut">
+                <label for="ibas">Basquete</label>
+                <input type="checkbox" name="bas" id="ibas">
+                <label for="ivol">Volei</label>
+                <input type="checkbox" name="vol" id="ivol">
+            </fieldset>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>

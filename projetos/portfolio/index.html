@@ -1,84 +1,146 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Ricardo - Portfólio</title>
+    <title>Portfólio - Ricardo</title>
 </head>
-
 <body>
-    <section>
-        <header>
-            <nav class="navbar">
-                <div class="logo">&lt;RS Dev/&gt;</div>
-                <ul class="nav-links">
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#project">Projetos</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
-        </header>
-    </section>
-
     <section id="home">
-        <main class="hero">
+        <div class="logo">&lt;RS Dev/&gt;</div>
+        <header class="header">
+            <a href="#home">Inicio</a>
+            <a href="#about">Sobre</a>
+            <a href="#projects">Projetos</a>
+            <a href="#review">Currículo</a>
+            <a href="#contact">Contato</a>
+        </header>
+        <div class="about">
             <h1>Ricardo Santana</h1>
-            <h2> Téc. Redes de Computadores | Desenvolvedor Front - End</h2>
-            <p>
-                Crio interfaces modernas, responsivas e otimizadas. Meu foco é transformar design em experiências digitais fluidas e de alta performance.
-            </p>
-            <div class="buttons">
-                <a href="#" class="btn primary">Meus Projetos</a>
-                <a href="#" class="btn secondary">Vamos Conversar</a>
-            </div>
-            <div class="socials">
-                <a href="https://ricardosantanasfc@gmail.com?subject=Contato%20Portfólio&body=Olá%20Ricardo,%20gostaria%20de%20falar%20sobre..."><img width="35" height="35" src="https://img.icons8.com/parakeet-line/48/ffffff/new-post.png" alt="new-post"/></a>
-                <a href="https://www.linkedin.com/in/ricardo-santana10"><img width="35" height="35" src="https://img.icons8.com/ios/50/ffffff/linkedin-2--v1.png" alt="linkedin-2--v1"/></a>
-                <a href="https://github.com/ricardosantana10"><img width="35" height="35" src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="github"/></a>
-            </div>
-        </main>
+            <h3>Téc. Redes de Computadores | Desenvolvedor Front-end</h3>
+            <p>Desenvolvendo multiplas ideias</p>
+        </div>
+        <div class="btn">
+            <button id="my-projects">Meus Projetos</button>
+            <button id="talk">Vamos Conversar</button>
+        </div>
+        <div class="icons">
+            <img width="40" height="40" src="https://img.icons8.com/ios-glyphs/40/FFFFFF/github.png" alt="github"/>
+            <img width="40" height="40" src="https://img.icons8.com/ios/40/FFFFFF/linkedin-circled--v1.png" alt="linkedin-circled--v1"/>
+            <img width="40" height="40" src="https://img.icons8.com/fluency-systems-regular/40/FFFFFF/new-post.png" alt="new-post"/>
+        </div>
     </section>
     
-    <section id="about" class="sobre">
-    <h2>Sobre Mim</h2>
-    
-    <div class="perfil">
-        <img src="imagens/img-ricardo.jpeg" alt="Foto Ricardo Santana">
-    </div>
-        <div class="sobre-container">
-        <p>
-            Formado em Redes de Computadores pelo SENAI, sou um profissional em início de carreira na área de Tecnologia da Informação, com foco em Desenvolvimento Front-end.
-
+    <section id="about">
+        <h1>Sobre mim</h1>
+        <div>
+            <img src="imagens/img-ricardo.jpeg" alt="img-ricardo">
+        </div>
+        <div class="card">
+            <p> 🚀 Formado em Redes de Computadores pelo SENAI, sou um profissional em início de carreira na área de Tecnologia da Informação, com foco em Desenvolvimento Front-end.
             Durante minha formação, participei do programa AWS Academy, que me proporcionou uma base sólida em computação em nuvem. Tenho conhecimentos em HTML5, CSS3 e noções de JavaScript, e estou em constante evolução técnica por meio de estudos e projetos práticos.
+            Destaco minha participação no Desafio de Ideias SENAI, onde desenvolvi uma solução voltada para a empresa Adonai, unindo criatividade e aplicação prática do conhecimento técnico.</p>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <div class="tittle">
+            <h1>Projetos em Destaque</h1>
+            <p>Soluções completas que demonstram minha técnica e criatividade</p>
+        </div>
+        <div>
+            <img src="imagens/photo-login.jpg" alt="photo-login">
+            <h2>Projeto Login</h2>
+            <p>Projeto página de cadastro, login, esqueci a senha e registrar</p>
+            <h6>Desafio Técnico</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat totam officiis, iste consectetur odio veniam repellendus quasi autem repudiandae animi perferendis ratione. Nihil corrupti quibusdam temporibus non. Soluta, similique fugiat!</p>
+            <div class="pg">
+                <p>HTML5</p>
+                <p>CSS3</p>
+            </div>
+            <div class="btn-projects">
+                <button id="demo">Ver Demo</button>
+                <button id="github">Ver Código</button>
+            </div>
+        </div>
+    </section>
 
-            Destaco minha participação no Desafio de Ideias SENAI, onde desenvolvi uma solução voltada para a empresa Adonai, unindo criatividade e aplicação prática do conhecimento técnico.
-
-            Busco minha primeira oportunidade profissional na área de TI, com especial interesse em desenvolvimento Front-end, onde possa crescer, contribuir com soluções e aprender continuamente em um ambiente de equipe e inovação
-      </p>
-
-    <div class="info">
-      <div class="card">
-        <h3>🎯 Especialização</h3>
-        <p>Desenvolvimento de interfaces com foco em performance, UX e acessibilidade.</p>
-      </div>
-      <div class="card">
-        <h3>💡 Paixão</h3>
-        <p>Transformar ideias em soluções digitais criativas e funcionais.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
+    <section id="review">
+        <div class="download">
+            <h1>Currículo</h1>
+            <p>Baixe meu currículo completo para mais detalhes sobre mim</p>
+        </div>
+        <div class="download-review">
+            <img width="80" height="80" src="https://img.icons8.com/pastel-glyph/80/FFFFFF/document--v1.png" alt="document--v1"/>
+            <h6>Currículo Completo</h6>
+            <p>Acesse informações detalhadas sobre formação, experiências e certificações</p>
+            <button>Baixar Currículo</button>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="title-contact">
+            <h1>Entre em Contato</h1>
+            <p>Estou aberto a oportunidades, colaborações ou apenas um bom papo <br> sobre tecnologia. Fique à vontade para me chamar</p>
+        </div>
+        
+        <div class="container">
+            <div class="information">
+            <h4>Informações de Contato</h4>
+            <div class="info-item">
+                <div class="icon">
+                    <img src="https://img.icons8.com/fluency-systems-regular/40/FFFFFF/new-post.png" alt="new-post"/>
+                </div>
+            <div>
+                <h6>Email</h6>
+                <p>ricardosantanasfc@gmail.com</p>
+            </div>
+            </div>
+            
+              <div class="info-item">
+                <div class="icon">
+                  <img src="https://img.icons8.com/windows/40/FFFFFF/phone.png" alt="phone"/>
+                </div>
+                <div>
+                  <h6>Telefone</h6>
+                  <p>+55 (13) 98882-9041</p>
+                </div>
+              </div>
+            
+              <div class="info-item">
+                <div class="icon">
+                  <img src="https://img.icons8.com/pastel-glyph/40/FFFFFF/place-marker.png" alt="place-marker"/>
+                </div>
+                <div>
+                  <h6>Localização</h6>
+                  <p>Santos, SP</p>
+                </div>
+              </div>
+            </div>
+            <form action="" autocomplete="on">
+                <div class="form-group">
+                    <label for="iname">Nome *</label>
+                    <input type="text" name="name" id="iname" required autocomplete="on" placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="iemail">Email *</label>
+                    <input type="email" name="email" id="iemail" required autocomplete="on" placeholder="seuemail@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="isubject">Assunto *</label>
+                    <input type="text" name="subject" id="isubject" required autocomplete="on" placeholder="Assunto do email">
+                </div>
+                <div class="form-group">
+                    <label for="imessage">Mensagem *</label>
+                    <input type="text" name="message" id="imessage" required autocomplete="on" placeholder="Vamos conversar...">
+                </div>
+            </form>
+        </div>
+    </section>
 
 </body>
-
 </html>
