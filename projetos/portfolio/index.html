@@ -7,12 +7,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="md.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
     <title>Portfólio - Ricardo</title>
 </head>
 <body>
     <section id="home">
         <div class="logo">&lt;RS Dev/&gt;</div>
-        <header class="header">
+        <header class="header" id="menu">
             <a href="#home">Inicio</a>
             <a href="#about">Sobre</a>
             <a href="#projects">Projetos</a>
@@ -22,11 +24,11 @@
         <div class="about">
             <h1>Ricardo Santana</h1>
             <h3>Téc. Redes de Computadores | Desenvolvedor Front-end</h3>
-            <p>Desenvolvendo multiplas ideias</p>
+            <p>Conecto ideias e tecnologia para criar experiências digitais completas e inovadoras."</p>
         </div>
         <div class="btn">
-            <button id="my-projects"><a href="#projects">Meus Projetos</a></button>
-            <button id="talk"><a href="#contact">Vamos Conversar</a></button>
+            <a href="#projects"><button id="my-projects">Meus Projetos</button></a>
+            <a href="#contact"><button id="talk">Vamos Conversar</button></a>
         </div>
         <div class="icons">
             <a href="https://github.com/ricardosantana10" target="_blank"><img width="50" height="50" src="https://img.icons8.com/ios-glyphs/50/FFFFFF/github.png" alt="github"/></a>
@@ -55,15 +57,15 @@
         <div>
             <img src="imagens/photo-login.jpg" alt="photo-login">
             <h2>Projeto Login</h2>
-            <p>Projeto página de cadastro, login, esqueci a senha e registrar</p>
+            <p>Página de login responsiva desenvolvida em HTML e CSS, com campos estilizados para usuário e senha, botão de acesso e layout moderno para praticar conceitos de front-end.</p>
             <h6>Desafio Técnico</h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat totam officiis, iste consectetur odio veniam repellendus quasi autem repudiandae animi perferendis ratione. Nihil corrupti quibusdam temporibus non. Soluta, similique fugiat!</p>
+            <p>O desafio do projeto é criar uma página de login funcional e responsiva, com validação de campos, feedback visual de erros e opção de exibir ou ocultar a senha.</p>
             <div class="pg">
                 <p>HTML5</p>
                 <p>CSS3</p>
             </div>
             <div class="btn-projects">
-                <button id="demo">Ver Demo</button>
+                <a href=""><button id="demo">Ver Demo</button></a>
                 <a href="https://github.com/ricardosantana10/html-css/tree/main/projetos/login-project" target="_blank" rel="external"><button id="github">Ver Código</button></a>
             </div>
         </div>
@@ -121,7 +123,7 @@
                 </div>
               </div>
             </div>
-            <form action="" autocomplete="on">
+            <form action="form.php" autocomplete="on" method="post">
                 <div class="form-group">
                     <label for="iname">Nome *</label>
                     <input type="text" name="name" id="iname" required autocomplete="on" placeholder="Seu nome">
@@ -138,10 +140,43 @@
                     <label for="imessage">Mensagem *</label>
                     <input type="text" name="message" id="imessage" required autocomplete="on" placeholder="Vamos conversar...">
                 </div>
+                <div class="form-btn">
+                    <button type="submit">Enviar</button>
+                </div>
             </form>
         </div>
     </section>
     <footer>
+        <div class="footer-about">
+            <div class="footer-logo">&lt;RS Dev/&gt;</div>
+            <p>Desenvolvedor Front-end dedicado a construir experiências digitais inovadoras e impactantes</p>
+            <div class="footer-icons">
+                <a href="https://github.com/ricardosantana10" target="_blank"><img width="50" height="50" src="https://img.icons8.com/ios-glyphs/50/FFFFFF/github.png" alt="github"/></a>
+                <a href="https://www.linkedin.com/in/ricardo-santana10/" target="_blank"><img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/linkedin-circled--v1.png" alt="linkedin-circled--v1"/></a>
+                <a href="#contact"><img width="50" height="50" src="https://img.icons8.com/fluency-systems-regular/50/FFFFFF/new-post.png" alt="new-post"/></a>
+            </div>
+        </div>
+
+        <div class="footer-navegation">
+            <h3>Navegação</h3>
+            <a href="#home">Inicio</a>
+            <a href="#about">Sobre</a>
+            <a href="#projects">Projetos</a>
+            <a href="#review">Currículo</a>
+            <a href="#contact">Contato</a>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Contato</h3>
+            <p>ricardosantanasfc@gmail.com</p>
+            <p>+55 (13) 98882-9041</p>
+            <p>Santos, SP</p>
+        </div>
+
+        <hr>
+
+        <p>©2025 Ricardo Santana. Todos os direitos reservados.</p>
+
 
     </footer>
 </body>
